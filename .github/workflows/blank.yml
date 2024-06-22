@@ -1,0 +1,12 @@
+name: prueba
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: prueba
+        run:  echo "¡Mi primera actions!"
